@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="assets/images/quiz-logo.png" width="200">
+      <img src="assets/images/quiz-logo.png" width="350">
 </p>
 
 ## About
@@ -21,3 +21,4 @@ Quiz app for Android. The quiz contains 10 questions about the location of the t
 ## Application show:
 
 - Quiz =>
+
