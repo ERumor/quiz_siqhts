@@ -22,3 +22,5 @@ Quiz app for Android. The quiz contains 10 questions about the location of the t
 
 - Quiz =>
 
+https://github.com/ERumor/quiz_siqhts/assets/57027295/fd1eebb4-72fb-40bd-ab00-8793560aa55d
+
