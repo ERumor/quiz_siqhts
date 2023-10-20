@@ -16,7 +16,9 @@ Quiz app for Android. The quiz contains 10 questions about the location of the t
 
 **Stack:**
 - Visual Studio Code, Flutter/Dart. 
-- google_fonts
+
+**Packages:** 
+- google_fonts.
 
 ## Application show:
 
