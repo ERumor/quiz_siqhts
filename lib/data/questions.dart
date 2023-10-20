@@ -82,7 +82,7 @@ const questions = [
     'assets/images/questions/bellagio.jpg',
   ),
   QuizQuestion(
-    'Where is the empire state building?',
+    'Where is the Empire State Building?',
     [
       'New York, USA',
       'Copenhagen, Denmark',
