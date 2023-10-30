@@ -8,40 +8,42 @@ class StartScreen extends StatelessWidget {
 
   @override
   Widget build(context) {
-    return Center(
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Image.asset(
-            'assets/images/quiz-logo.png',
-            width: 300,
-            color: const Color.fromARGB(150, 255, 255, 255),
-          ),
-          // Opacity(
-          //   opacity: 0.6,
-          //   child: Image.asset(
-          //     'assets/images/quiz-logo.png',
-          //     width: 300,
-          //   ),
-          // ),
-          const SizedBox(height: 80),
-          Text(
-            'Top 10 sights of the world!',
-            style: GoogleFonts.lato(
-              color: const Color.fromARGB(255, 255, 255, 255),
-              fontSize: 24,
+    return SingleChildScrollView(
+      child: Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Image.asset(
+              'assets/images/quiz-logo.png',
+              width: 300,
+              color: const Color.fromARGB(150, 255, 255, 255),
             ),
-          ),
-          const SizedBox(height: 30),
-          OutlinedButton.icon(
-            onPressed: startQuiz,
-            style: OutlinedButton.styleFrom(
-              foregroundColor: Colors.white,
+            // Opacity(
+            //   opacity: 0.6,
+            //   child: Image.asset(
+            //     'assets/images/quiz-logo.png',
+            //     width: 300,
+            //   ),
+            // ),
+            const SizedBox(height: 80),
+            Text(
+              'Top 10 sights of the world!',
+              style: GoogleFonts.lato(
+                color: const Color.fromARGB(255, 255, 255, 255),
+                fontSize: 24,
+              ),
             ),
-            icon: const Icon(Icons.arrow_right_alt),
-            label: const Text('Start Quiz'),
-          )
-        ],
+            const SizedBox(height: 30),
+            OutlinedButton.icon(
+              onPressed: startQuiz,
+              style: OutlinedButton.styleFrom(
+                foregroundColor: Colors.white,
+              ),
+              icon: const Icon(Icons.arrow_right_alt),
+              label: const Text('Start Quiz'),
+            )
+          ],
+        ),
       ),
     );
   }
